@@ -1,10 +1,8 @@
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
 export default defineConfig({
-  site: 'https://www.bahi.ar',
-  base: '/blog', // <-- Crucial: Avisa que el blog corre en la subcarpeta
-  build: {
-    format: 'directory' // Genera URLs limpias (ej: /blog/nota/)
-  }
+  // Tu URL pública base de GitHub Pages
+  site: 'https://bahiar.github.io',
+  // El nombre exacto de tu repositorio con barras diagonales
+  base: '/bahi-blog',
 });
